@@ -13,7 +13,7 @@ export function Home() {
                 <p>Tire as dúvidas de sua audiência em tempo real</p>
             </aside>
             <main>
-                <div>
+                <div className='main-content'>
                     <img src={logoImg} alt="WhatAboutThis" />
                     <button>
                         <img src={googleIconImg} alt="Logo do Google" />
