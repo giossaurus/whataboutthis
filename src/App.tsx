@@ -8,7 +8,12 @@ import { NewRoom } from "./pages/NewRoom";
 function App() {
   return (
     <BrowserRouter>
-      <Route />
+      <Route path='/'>  
+        <Home />
+      </Route>
+      <Route path='/rooms/new'>  
+        <NewRoom />
+      </Route>
     </BrowserRouter>
   );
 }
