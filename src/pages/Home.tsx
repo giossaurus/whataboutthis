@@ -11,7 +11,7 @@ export function Home() {
     const history = useHistory();
 
     function navigateToNewRoom() {
-        history.push('/rooms/news');
+        history.push('/rooms/new');
     }
 
     return (
