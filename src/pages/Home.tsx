@@ -1,4 +1,4 @@
-
+import { useNavigate } from 'react-router-dom'
 
 import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg'
@@ -8,11 +8,11 @@ import '../styles/auth.scss'
 import { Button } from '../components/Button'
 
 export function Home() {
-    // const history = useHistory();
+    const history = useNavigate();
 
     // function navigateToNewRoom() {
-    //     history.push('/rooms/new');
-    // }
+    //     history.('/rooms/new');
+    }
 
     return (
         <div id='page-auth'>
