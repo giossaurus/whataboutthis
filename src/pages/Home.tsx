@@ -7,12 +7,12 @@ import googleIconImg from '../assets/images/google-icon.svg'
 import '../styles/auth.scss'
 import { Button } from '../components/Button'
 
-// export function Home() {
-//     const history = useNavigate();
+export function Home() {
+    const history = useNavigate();
 
-//     // function navigateToNewRoom() {
-//     //     history.('/rooms/new');
-//     }
+    function navigateToNewRoom() {
+        history.('/rooms/new');
+    }
 
     return (
         <div id='page-auth'>
